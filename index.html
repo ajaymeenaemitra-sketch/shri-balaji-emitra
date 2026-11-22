@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Shri Balaji e-Mitra, Dharanawad - ई-मित्र सेवाएँ, सरकारी योजनाएँ और ऑनलाइन आवेदन सहायता।">
+<title>Shri Balaji e-Mitra | Dharanawad</title>
+<style>
+:root{--navy:#12315a;--blue:#1769aa;--saffron:#f39a28;--bg:#f4f7fb;--ink:#182536;--muted:#617186;--white:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Noto Sans Devanagari",sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+header{background:linear-gradient(120deg,#102b50,#1769aa);color:white;padding:18px 5%;position:sticky;top:0;z-index:5;box-shadow:0 3px 15px #102b5033}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}.brand{font-size:1.25rem;font-weight:800}.brand small{display:block;font-size:.78rem;font-weight:500;opacity:.85}
+nav{display:flex;gap:16px;flex-wrap:wrap}nav a{color:white;text-decoration:none;font-weight:600;font-size:.93rem}
+.hero{padding:66px 5%;background:linear-gradient(110deg,#eaf3ff,#fff7e9);display:grid;grid-template-columns:1.3fr .7fr;gap:25px;align-items:center}
+.hero h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.18;color:var(--navy);margin:8px 0 14px}.hero p{font-size:1.1rem;color:#42556d;max-width:680px}
+.pill{display:inline-block;background:#fff0d9;color:#8c4b00;padding:6px 12px;border-radius:30px;font-weight:700;font-size:.85rem}
+.hero-card{background:white;border-radius:22px;padding:25px;box-shadow:0 12px 35px #173a6418;border:1px solid #e3ebf5}
+.btn{display:inline-block;background:var(--blue);color:white;text-decoration:none;border:0;border-radius:10px;padding:12px 18px;font-weight:700;cursor:pointer;margin:5px 7px 5px 0}.btn.orange{background:var(--saffron);color:#2c210f}.btn.light{background:#eaf2fb;color:var(--navy)}
+section{padding:48px 5%}.section-head{margin-bottom:22px}.section-head h2{margin:0;color:var(--navy);font-size:1.8rem}.section-head p{margin:5px 0;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:white;border:1px solid #e5ebf2;border-radius:16px;padding:20px;box-shadow:0 5px 18px #173a6409}.card h3{margin:7px 0;color:var(--navy)}.icon{font-size:1.8rem}.card p{color:var(--muted);margin:5px 0 0}.scheme{border-left:4px solid var(--saffron)}
+.notice{background:#fff8e9;border:1px solid #f4dfb8;padding:15px 18px;border-radius:12px;color:#6b4a17}
+.contact{background:#102b50;color:white}.contact h2{color:white}.contact .card{color:var(--ink)}
+form{display:grid;gap:11px}input{width:100%;padding:12px;border:1px solid #ccd6e2;border-radius:9px;font:inherit}label{font-weight:650;font-size:.92rem}
+footer{background:#0b203c;color:#dbe7f5;text-align:center;padding:22px 5%;font-size:.9rem}
+.modal{display:none;position:fixed;inset:0;background:#06172dcc;z-index:10;align-items:center;justify-content:center;padding:18px}.modal.open{display:flex}.modal-box{background:white;border-radius:18px;padding:24px;width:min(430px,100%);position:relative}.close{position:absolute;right:15px;top:10px;border:0;background:none;font-size:1.5rem;cursor:pointer}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:42px}.grid{grid-template-columns:1fr 1fr}nav{gap:10px}.nav{align-items:flex-start}}
+@media(max-width:480px){.grid{grid-template-columns:1fr}nav a{font-size:.84rem}}
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="brand">🪔 Shri Balaji e-Mitra<small>धरणावद | आपकी डिजिटल सेवा केंद्र</small></div>
+<nav><a href="#home">होम</a><a href="#services">सेवाएँ</a><a href="#schemes">सरकारी योजनाएँ</a><a href="#contact">संपर्क</a><a href="#" onclick="openLogin();return false">लॉगिन</a></nav></div></header>
+<main>
+<div class="hero" id="home"><div><span class="pill">विश्वसनीय डिजिटल सेवा केंद्र</span><h1>आपकी हर जरूरी ऑनलाइन सेवा, एक ही जगह</h1><p>Shri Balaji e-Mitra पर सरकारी योजनाओं की जानकारी, ऑनलाइन आवेदन सहायता और डिजिटल सेवाओं के लिए संपर्क करें।</p>
+<a class="btn" href="#services">सेवाएँ देखें</a><a class="btn orange" href="https://wa.me/918824084378?text=Namaste%2C%20mujhe%20e-Mitra%20seva%20ke%20baare%20mein%20jaankari%20chahiye." target="_blank" rel="noopener">WhatsApp करें</a></div>
+<div class="hero-card"><div class="icon">🏢</div><h2 style="color:#12315a;margin:5px 0">Shri Balaji e-Mitra</h2><p>प्रो. अजय मीणा</p><p>📍 धरणावद, जिला कोटा, राजस्थान</p><p>📞 8824084378</p><a class="btn light" href="#contact">संपर्क विवरण</a></div></div>
+<section id="services"><div class="section-head"><h2>हमारी सेवाएँ</h2><p>अपनी जरूरत की सेवा के लिए WhatsApp पर जानकारी लें।</p></div><div class="grid">
+<div class="card"><div class="icon">📝</div><h3>ऑनलाइन आवेदन</h3><p>विभिन्न सरकारी पोर्टल के आवेदन भरने में सहायता।</p></div>
+<div class="card"><div class="icon">🪪</div><h3>पहचान एवं प्रमाण पत्र</h3><p>उपलब्ध सरकारी सेवाओं और प्रमाण-पत्र आवेदनों में सहायता।</p></div>
+<div class="card"><div class="icon">🌾</div><h3>किसान सेवाएँ</h3><p>किसान योजनाओं, पंजीकरण और आवेदन संबंधी मार्गदर्शन।</p></div>
+<div class="card"><div class="icon">💳</div><h3>बैंकिंग सहायता</h3><p>उपलब्ध बैंकिंग एवं डिजिटल भुगतान सेवाओं की जानकारी।</p></div>
+<div class="card"><div class="icon">🖨️</div><h3>प्रिंट एवं दस्तावेज</h3><p>प्रिंट, स्कैन और दस्तावेज संबंधी सहायता।</p></div>
+<div class="card"><div class="icon">📷</div><h3>फोटो फ्रेम</h3><p>A4 आकार में फोटो फ्रेम कार्य के लिए संपर्क करें।</p></div>
+</div></section>
+<section id="schemes"><div class="section-head"><h2>सरकारी योजनाएँ</h2><p>योजना की पात्रता, दस्तावेज और आवेदन की ताजा जानकारी आधिकारिक पोर्टल से सत्यापित करें।</p></div><div class="grid">
+<div class="card scheme"><div class="icon">🌱</div><h3>पीएम किसान सम्मान निधि</h3><p>पात्र किसानों के लिए योजना और आवेदन संबंधी जानकारी।</p></div>
+<div class="card scheme"><div class="icon">🚜</div><h3>कृषि अनुदान योजनाएँ</h3><p>कृषि यंत्र, तारबंदी और अन्य उपलब्ध अनुदान योजनाएँ।</p></div>
+<div class="card scheme"><div class="icon">🏪</div><h3>मुख्यमंत्री युवा स्वरोजगार</h3><p>स्वरोजगार ऋण योजना की जानकारी और आवेदन सहायता।</p></div>
+</div><p class="notice" style="margin-top:18px">नोट: योजनाओं की पात्रता, अंतिम तिथि और लाभ समय-समय पर बदल सकते हैं। आवेदन से पहले आधिकारिक सरकारी सूचना अवश्य देखें।</p></section>
+<section id="contact" class="contact"><div class="section-head"><h2>हमसे संपर्क करें</h2><p style="color:#dbe7f5">ऑनलाइन आवेदन या किसी सेवा के लिए सीधे बात करें।</p></div><div class="grid">
+<div class="card"><h3>दुकान का पता</h3><p>Shri Balaji e-Mitra<br>धरणावद, जिला कोटा, राजस्थान</p></div>
+<div class="card"><h3>फोन / WhatsApp</h3><p>8824084378</p><a class="btn" href="https://wa.me/918824084378?text=Namaste%2C%20mujhe%20online%20aavedan%20karwana%20hai." target="_blank" rel="noopener">WhatsApp पर आवेदन पूछें</a></div>
+<div class="card"><h3>संचालक</h3><p>प्रो. अजय मीणा</p><a class="btn light" href="tel:+918824084378">कॉल करें</a></div>
+</div></section>
+</main>
+<footer>© <span id="year"></span> Shri Balaji e-Mitra, Dharanawad. सर्वाधिकार सुरक्षित।</footer>
+<div class="modal" id="loginModal" role="dialog" aria-modal="true" aria-labelledby="loginTitle"><div class="modal-box"><button class="close" onclick="closeLogin()" aria-label="बंद करें">×</button><h2 id="loginTitle" style="color:#12315a">ग्राहक लॉगिन</h2><p style="color:#617186">यह अभी केवल नमूना लॉगिन स्क्रीन है। वास्तविक ग्राहक खाते और सुरक्षित लॉगिन चालू करने के लिए सर्वर/डेटाबेस जोड़ना होगा।</p><form onsubmit="event.preventDefault();alert('यह डेमो स्क्रीन है। वास्तविक लॉगिन अभी सक्रिय नहीं है।');"><label>मोबाइल नंबर</label><input type="tel" placeholder="अपना मोबाइल नंबर" maxlength="10" required><label>पासवर्ड / OTP</label><input type="password" placeholder="पासवर्ड" required><button class="btn" type="submit">लॉगिन (डेमो)</button></form></div></div>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+function openLogin(){document.getElementById('loginModal').classList.add('open')}
+function closeLogin(){document.getElementById('loginModal').classList.remove('open')}
+document.getElementById('loginModal').addEventListener('click',e=>{if(e.target.id==='loginModal')closeLogin()});
+</script>
+</body></html>
